@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Athene;
+    src: url(../fonts/Athene.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Athene', sans-serif;
+    font-weight: 400;
+
+}
+
+/*----------HEADER-----------------*/
+
+header {
+    background-color: #EFE8D7;
+    color: #042A5A;
+}
+
+.leiste {
+    font-family: open sans-serif;
+    border-bottom: 1px solid #042A5A;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding-top: 1em;
+}
+
+div {
+    padding-top: 4.5em;
+    margin-right: 8.5em;
+    margin-left: 8.5em;
+}
+
+h5 {
+    font-size: 10em;
+    text-align: center;
+    border-bottom: 1px solid #042A5A;
+}
+
+span {
+    font-family: open sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+img {
+    padding-left: 36.5em;
+    padding-top: 5em;
+    padding-bottom: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+/*------------article------------*/
+
+article {
+    background-color: #F4C4C4;
+    color: #282B29;
+    padding-right: 4em;
+}
+
+article :nth-child(1) {
+    padding-top: 4.5em;
+    padding-left: 7em;
+    padding-bottom: 2em;
+}
+
+h2 {
+    font-size: 10em;
+}
+
+h4 {
+    font-size: 10em;
+    text-align: right;
+}
+
+article :nth-child(4) {
+    padding-left: 51em;
+    line-height: 2em;
+}
+
+article>img {
+    width: 80vh;
+}
+
+table {
+    font-family: open sans-serif;
+    display: block;
+    padding-left: 60em;
+}
+
+table :nth-child(6) {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+/*-------section----------------*/
+
+section {
+    background-color: #DEB873;
+    color: #7D2222;
+}
+
+section :nth-child(1) {
+    text-align: right;
+    padding-top: 4.5em;
+    padding-right: 7em;
+    padding-bottom: 2em;
+}
+
+section :nth-child(4) {
+    line-height: 2em;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 53em;
+    padding-bottom: 7em;
+}
+
+section :nth-child(5) {
+    font-size: 5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 9em;
+    margin-bottom: -3em;
+}
+
+section>img {
+    width: 150vh;
+    display: block;
+}
+
+
+/*-----------FOOTER----------------*/
+
+footer {
+    background-color: #D2D2D2;
+    color: #388883;
+}
+
+footer :nth-child(1) {
+    padding-top: 4.5em;
+    padding-left: 7em;
+    padding-bottom: 2em;
+}
+
+footer :nth-child(4) {
+    line-height: 2em;
+    padding-left: 26em;
+    padding-right: 45em;
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+footer>ul {
+    text-align: right;
+    padding-right: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #38888 
+Background:#EFE8D7; */
